@@ -1,0 +1,153 @@
+
+
+body {
+	margin: 0;
+
+}
+
+h1{
+
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 4em;
+	margin-bottom: -.5em;
+	/*project titles only*/
+}
+
+h2 {
+	
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	font-style: italic;
+	line-height: 1.25em;
+	/*italic body text BUT FOR CAPTIONS!*/
+}
+
+h3 {
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	color: #FFF;
+	line-height: 1em;
+	/*navigation directions on navigation bar*/
+}
+
+h4 {
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	font-style: italic;
+	color: #848484;	
+	line-height: 1em;	
+	/*Molly Haig on navigation bar*/
+}
+
+h5 {
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0;
+	line-height: 1.5em;	
+	margin-bottom: -1em;
+	/*bold body text*/
+	
+}
+
+h6 {
+	
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	font-style: italic;
+	line-height: 1.5em;
+	/*italic body text*/
+}
+
+
+p{
+	/*text-align: center;*/
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	color: #000;
+	font-size: 1em;
+	line-height: 1.25em;
+	/*body text*/
+
+}
+
+.image_box {
+ /* border: 1px solid green;*/
+  width: 70%;
+  margin: auto; 
+  max-width: 750px;
+  padding-top: 100px;
+ 
+}
+
+
+.port_images {
+	padding: 5% 0% 0% 0;
+
+}
+
+.responsive_images{
+	border: 1px solid #000;
+}
+.responsive_images:hover {
+	filter: opacity(70%);
+}
+
+.white_images {
+	border: 1px solid #000;
+}
+img {
+	display: block;
+}
+
+/*.navbar {
+	text-align: center;
+	font-family: Akkurat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	position: absolute;
+	top: 400px;
+	width: 100%;
+}
+*/
+
+
+/*body {
+	    background-image: url("rough_sketch.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+}*/
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	background: #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	z-index: 999;
+}
+
+
+@media only screen and (max-width: 512px) {
+	h1 {font-size: 3em;}
+	h2 {font-size: .9em;}
+	h3 {font-size: .9em}
+	h4 {font-size: .9em;}
+	h6 {font-size: .9em; line-height: 1.25em;}
+	h5 {font-size: .9em; line-height: 1.25em;}
+	.navbar {top: 300px;}
+	.image_box {
+		width: 86%;
+		margin: auto;
+		padding-top: 60px;
+		
+	p {font-size: .9em; line-height: 1.25em;}
+}
+
