@@ -36,10 +36,13 @@ h3 {
 h4 {
 	font-family: Akkurat, Helvetica, Arial, sans-serif;
 	font-size: 1em;
-	font-weight: lighter;
+	font-weight: lighter !important;
 	font-style: italic;
 	color: #848484;	
 	line-height: 1em;	
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 	/*Molly Haig on navigation bar and "next project" ...but font-weight isn't working in next project*/
 }
 
@@ -147,7 +150,6 @@ img {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: baseline;
-	
 }
 
 @media only screen and (max-width: 512px) {
